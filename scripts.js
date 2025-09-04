@@ -27,3 +27,5 @@ function validarContrasena(password) {
   return regex.test(password);
 }
 /////////////fin bloque de inicio de session ////////////////
+
+/////////////////Bloque de inicio de sesion ///////////////

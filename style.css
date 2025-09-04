@@ -13,7 +13,10 @@ form {
     padding: 50px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 10px rgba(0.5, 0.1, 0, 0.5);
+    border-radius: 10px;
+    
+
 }
 .Formulario{
     display: flex;
@@ -55,6 +58,11 @@ form {
     border-radius: 4px;
     box-sizing: border-box;
     align-items: center;
+<<<<<<< HEAD
+    background-color: #86BBD8;
+
+=======
+>>>>>>> 4be729abd811adeac79609258a9005e975d3f98a
 }
 
 .FormularioRegistro{
@@ -71,7 +79,7 @@ form {
     background-color: #f9f9f9;
 }
 .NavBar {
-    background-color: #7a7878;
+    background-color: #F26419;
     overflow: hidden;
     padding: 20px;
 
@@ -80,7 +88,7 @@ form {
 .NavBar a {
     float: left;
     display: block;
-    color: white;
+    color: white ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -89,4 +97,6 @@ form {
 .NavBar a:hover {
     background-color: #7e7474;
     color: rgb(109, 203, 237);
+    border-radius: 10px;
 }
+

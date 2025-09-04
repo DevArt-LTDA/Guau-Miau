@@ -1,0 +1,63 @@
+.Container {
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+form {
+    margin: 150px;
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #f9f9f9;
+
+}
+.FormularioRegistro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.NavBar {
+    background-color: #7a7878;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavBar a:hover {
+    background-color: #7e7474;
+    color: rgb(109, 203, 237);
+}

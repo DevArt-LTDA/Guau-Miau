@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .Container {
     width: auto;
     height: auto;
     font-family: Arial, sans-serif;
 }
+
 form {
     margin: 50px;
     padding: 50px;
@@ -15,10 +17,9 @@ form {
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0.5, 0.1, 0, 0.5);
     border-radius: 10px;
-    
-
 }
-.Formulario{
+
+.Formulario {
     display: flex;
     flex-direction: column;
     margin-top: -20px;
@@ -29,16 +30,18 @@ form {
     padding: 1px;
     align-items: center;
 }
-.header{
+
+.header {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 24px;
-    margin-top: -50px; /* Ajustado para mejor posicionamiento */
+    margin-top: -50px;
     font-family: 'Arial Black', sans-serif;
 
 }
-.RegistroMascotaHeader{
+
+.RegistroMascotaHeader {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
@@ -47,10 +50,10 @@ form {
     font-family: 'Arial Black', sans-serif;
 }
 
-.RegistrarMascota{
+.RegistrarMascota {
     display: flex;
     flex-direction: column;
-    margin-top: -80px; /* Mueve la sección de registrar mascota más arriba */
+    margin-top: -80px;
     margin-bottom: auto;
     font-size: 18px;
     font-weight: bold;
@@ -62,7 +65,9 @@ form {
 
 }
 
-.FormularioRegistro{
+
+
+.FormularioRegistro {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -75,6 +80,7 @@ form {
     align-items: center;
     background-color: #f9f9f9;
 }
+
 .NavBar {
     background-color: #F26419;
     overflow: hidden;
@@ -85,7 +91,7 @@ form {
 .NavBar a {
     float: left;
     display: block;
-    color: white ;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -96,4 +102,3 @@ form {
     color: rgb(109, 203, 237);
     border-radius: 10px;
 }
-

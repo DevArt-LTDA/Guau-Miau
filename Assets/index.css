@@ -1,0 +1,54 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.Container {
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+form {
+    margin: 50px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0.5, 0.1, 0, 0.5);
+    border-radius: 10px;
+    
+
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 1px;
+    align-items: center;
+}
+
+.NavBar {
+    background-color: #F26419;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavBar a:hover {
+    background-color: #7e7474;
+    color: rgb(109, 203, 237);
+    border-radius: 10px;
+}
+

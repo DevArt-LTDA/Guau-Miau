@@ -9,8 +9,8 @@ body {
     font-family: Arial, sans-serif;
 }
 form {
-    margin: 150px;
-    padding: 100px;
+    margin: 50px;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0.5, 0.1, 0, 0.5);
@@ -21,7 +21,8 @@ form {
 .Formulario{
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px; /* Cambiado de 20px a 40px para moverlo más arriba */
+    margin-top: -20px;
+    margin-bottom: 30px;
     font-size: 18px;
     font-weight: bold;
     text-align: left;
@@ -33,7 +34,7 @@ form {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 24px;
-    margin-top: -100px;
+    margin-top: -50px; /* Ajustado para mejor posicionamiento */
     font-family: 'Arial Black', sans-serif;
 
 }
@@ -49,6 +50,7 @@ form {
 .RegistrarMascota{
     display: flex;
     flex-direction: column;
+    margin-top: -80px; /* Mueve la sección de registrar mascota más arriba */
     margin-bottom: auto;
     font-size: 18px;
     font-weight: bold;
